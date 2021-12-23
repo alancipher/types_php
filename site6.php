@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <!--int out with strings  -->
+    <!--int out with strings and numbers   -->
    <?php
 
    $phrase = "Giraffe Academy ";
@@ -21,9 +21,10 @@
     echo "<br>";
     $num++;
     echo $num;
-
     echo "<br>";
     echo abs($num);
+    echo "<br>";
+    echo round(3,6);
 
 
 
