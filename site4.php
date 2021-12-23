@@ -7,14 +7,21 @@
   <body>
     <!--data type  -->
    <?php
-     $characterName = "the number";
-     $characterAge = 25;
-     echo "There once was a man named $characterName <br>";
-     echo "He was $characterAge years old <br>";
 
-     $characterName = "Mike";
-     echo "He really like the name $characterName <br>";
-     echo "But didn't like being $characterAge <br>";
+   $phrase = "To be or not to be ";
+   $age = 35;
+   $gpa = 32.98949;
+   $ismale = false;
+
+     echo "<h1> hello this is our variables</h1> <br>";
+     echo "$phrase <br>";
+     echo "$age <br>";
+     echo "$gpa <br>";
+     echo "$ismale <br>";
+
+    echo "<h1> it works! </h1>";
+
+
     ?>
 
   </body>
