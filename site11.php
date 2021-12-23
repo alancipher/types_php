@@ -7,7 +7,9 @@
   <body>
     <!-- a simple game   -->
 
+ <form  action="site12.html" method="post">
 
+ </form>
 
   <?php
 
