@@ -21,6 +21,21 @@ while ($index <=5 ) {
   echo  "$index <br> ";
   $index++;
 }
+
+
+ $index2  = 6;
+ do{
+   echo "$index2 <br>";
+   $index2++;
+ }while ($index2 <= 5) ;
+
+
+
+
+ for ($i=1; $i <=  10; $i++) {
+   // code...
+   echo "$i is the $i ieme <br>";
+ }
    ?>
   </body>
 </html>
