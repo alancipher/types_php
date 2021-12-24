@@ -30,11 +30,11 @@ while ($index <=5 ) {
  }while ($index2 <= 5) ;
 
 
+$luckyNumbers  = array(4, 8 , 14 ,16, 23, 42 );
 
-
- for ($i=1; $i <=  10; $i++) {
+ for ($i=0; $i < count($luckyNumbers); $i++) {
    // code...
-   echo "$i is the $i ieme <br>";
+   echo "$luckyNumbers[$i] is the $i ieme <br>";
  }
    ?>
   </body>
